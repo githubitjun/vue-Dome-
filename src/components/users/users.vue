@@ -104,7 +104,7 @@
     </el-dialog> -->
     <!--  -->
     <!-- 设置角色的面板 -->
-    <el-dialog title="分配角色" :visible.sync="checkDialog">
+       <el-dialog title="分配角色" :visible.sync="checkDialog">
       <el-form :model="fromObj">
         <el-form-item label="用户名" :label-width="formLabelWidth">
               {{fromObj.username}}
